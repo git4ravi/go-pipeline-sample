@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_git4ravi_go_pipeline_sample_1711519721290-push-trigger-input-set
+  identifier: Build_git4ravi_go_pipeline_sample_1711519721290pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: gopipelinesample
+  pipeline:
+    identifier: Build_git4ravi_go_pipeline_sample_1711519721290
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
